@@ -1,0 +1,229 @@
+
+
+h1, h3 {
+  font-family: Montserrat-Black;
+  color: white;
+}
+
+h2 {
+  font-family: Montserrat-bold;
+}
+
+h3 {
+  font-size: 45px;
+  width: 800px;
+  margin: auto;
+  padding-bottom: 25px;
+}
+
+button {
+  font-family: Montserrat;
+}
+
+body {
+  font-family: Montserrat;
+  text-align: center;
+}
+
+p {
+  color: grey;
+}
+
+
+/* title section */
+
+#title {
+  background-color: #ff4c68;
+}
+
+
+/* Title Image */
+
+.title-img {
+  transform: rotate(25deg);
+  width: 60%;
+  margin-left: 25px;
+}
+
+
+/* headings */
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+
+/* Features Section */
+
+#features {
+  padding: 5% 2% 0%;
+  background-color: white;
+  position: relative;
+  z-index: 2;
+  margin-top: -170px;
+}
+
+
+.container-fluid {
+  padding: 3% 15% 5%;
+}
+
+.fa-apple {
+  padding-right: 5px;
+}
+
+.fa-google-play {
+  padding-right: 5px;
+}
+
+.feature-title {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+
+
+/*navigation bar*/
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-left: 0;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-nav {
+  font-family: Ubuntu;
+}
+
+.nav-item {
+  padding: 0 18px 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: Montserrat light;
+}
+
+
+/* download buttons */
+
+.dowload-button {
+  margin: 5% 3% 5% 0%;
+}
+
+
+/* Features Container */
+
+.container-two {
+  background-color: white;
+}
+
+.features-text {
+  padding: 5%
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68
+}
+
+/* testimonials */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  width: 20%;
+  border-radius: 180px;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 14%;
+  margin: 20px 20px 50px;
+}
+
+/* price section */
+#pricing {
+  margin: 50px;
+}
+
+.pricing-column {
+  padding: 15px 5px;
+}
+
+/* footer */
+#cta {
+  background-color: #ff4c68;
+  padding: 10%;
+  margin: auto;
+
+.cta-title {
+    margin-bottom: 10px;
+
+  }
+
+#footer {
+  padding: 50px;
+}
+
+.footer-buttons {
+  margin: auto;
+}
+
+.btn-light {
+  margin-left: 15px;
+}
+
+.copyright {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+/* mobile styling */
+
+@media (max-width: 1269px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+
+  .big-heading {
+    font-size: 45px;
+  }
+
+  .icon {
+    padding-bottom: 0;
+  }
+
+  h3 {
+    font-size: 18px;
+    Margin: auto;
+    text-align: left;
+  }
